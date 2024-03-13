@@ -25,6 +25,9 @@ public class Date {
    *
    * @return The day of the month (1-31).
    */
+  public void propietario() {
+	  System.out.println("Metodo añadido por propietario");
+  }
   public int getDay() {
     return day;
   }
